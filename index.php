@@ -3,6 +3,7 @@
 <head>
 <title>Geometric Form</title>
 <link rel="stylesheet" type="text/css" href="styles.css"> 
+<link href="https://fonts.googleapis.com/css?family=Pontano+Sans|Space+Mono" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -30,9 +31,9 @@
 </head>
 <body>
     <div id="intro">
-            <h1 class="title">Geometric Form</h1>
-            <a>Use your cursor to draw letterforms.</a>
-            <p id="intro-info">Geometry is used to describe spatial relationships while letters are used to form words. The theory of sacred geometry focuses on oneness with infinite possibilities. In the same way, language offers endless opportunities for communication, allowing people to share their ideas with the world.<br><br>Within the constraints of a restrictive form, meaning can still be generated. This project encourages engagement and experimentation. Create your letterform, add it to the gallery, and select letters to form words on the line below.</p>
+            <h1 class="title">Form Letters</h1>
+            <a>Use your cursor to draw letter forms.</a>
+            <p id="intro-info">Geometry is used to describe spatial relationships while letters are used to form words. The theory of sacred geometry focuses on oneness with infinite possibilities. In the same way, language offers endless opportunities for communication, helping people share their ideas with the world.Within the constraints of a  form, meaning can still be generated.<br><br>Create your letterform, add it to the gallery, and select letters to form words on the line below.</p>
     </div>
 
  <div class="flex-right">
@@ -45,7 +46,7 @@
 </div>
 
     <div id="explore">
-	    <h1>Letterforms</h1>
+	    <h1>Form Meaning</h1>
 	    <a>Contribute and select letters to create words below.</a>
 	</div>
 
@@ -62,11 +63,11 @@
 
     <div class="flex-right row">
         
-        <div class="column column-share">
+<!--         <div class="column column-share">
             <div id="share">
                 <h1>Form Meaning</h1>
             </div>
-        </div>
+        </div> -->
 
         <div class="column column-inputs">
             <div class="input-group">

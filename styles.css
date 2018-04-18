@@ -4,7 +4,7 @@ html, body{
     margin-left:15px;
 }
 html{
-	font-family: 'Baskerville', serif;
+	font-family: 'Times', serif;
 }
 body{
 	background-color:black;
@@ -23,11 +23,23 @@ canvas{
 }
 
 h1{ 
-	font-family:BaskervilleMTStd-SemiBd;
+	font-family:Times;
+    font-weight:400;
+    font-size:45pt;
+    margin-bottom:5px;
+    margin-top:10px;
 }
 
-p{ 
-	font-weight:100; 
+a{  
+    font-family: sans-serif;
+    font-weight:100;
+}
+
+p{  
+    font-family: sans-serif;
+    font-weight:100;
+    line-height:1.4;
+    letter-spacing:.2pt;
 }
 
 #intro{
@@ -40,8 +52,8 @@ p{
 
 #intro-info{
     visibility:hidden;
-    width:500px;
-    padding:5px;
+    width:440px;
+    padding:20px;
     position:absolute;
     background-color:rgba(0,0,0,0.75);
     z-index:6;
@@ -74,8 +86,9 @@ p{
 
 #clearLines {
     display: block;
-    padding: 0;
-    font-size: 40px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight:600;
     text-decoration: none;
     color: white;
     position: absolute;
@@ -90,8 +103,9 @@ p{
     position: absolute;
     bottom: 0;
     right: -20px;
-    padding: 0;
-    font-size: 40px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight:600;
     text-decoration: none;
     margin-right:0;
     color: white;
@@ -121,9 +135,9 @@ p{
 }
 
 #line{
-    width: 100%;
-    height: 95px;
-    border-bottom: 5px solid white;
+    width: 95%;
+    height: 100px;
+    border-bottom: 3px solid white;
     margin-right:0;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -143,7 +157,7 @@ img.letter:hover{
 
 .gallery img:active {
     opacity: .0;
-;}
+}
 
 .small-image{
     width: 85px;
@@ -154,6 +168,7 @@ img.letter:hover{
 .flex-right {
    overflow: hidden;
    padding-right:100px;
+   padding-bottom:25px;
 }
 
 .row {
@@ -164,22 +179,4 @@ img.letter:hover{
     float: left;
     display: block;
     box-sizing: border-box;
-}
-
-footer {
-    position: block;
-    height: 50px;
-    width: 100%;
-    background-color: black;
-}
-
-p.copyright {
-    position : inline-block;
-    bottom : 0;
-    height : 40px;
-    margin-top : 50px;
-    width: 100%;
-    color: white;
-    font-size: 1em;
-    text-align: center;
 }

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>The Language of Geometry</title>
+<title>Geometric Form</title>
 <link rel="stylesheet" type="text/css" href="styles.css"> 
 
 <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -30,23 +30,23 @@
 </head>
 <body>
     <div id="intro">
-            <h1 class="title">Sacred Forms</h1>
-            <p>To type, use your cursor to draw letterforms.</p>
-            <p id="intro-info"> Geometry is a language that is used to describe spatial relationships while letterforms are used to form words to share ideas. More specifically, the theory of sacred geometry is used to illustrate patterns that describe the physical nature of life down to the very particles that make up our existence. This form of geometry focuses on the idea of oneness that holds infinite possiblities.<br><br>In the same way, languages offer endless opportunities for communication, allowing those who understand to share their ideas with the world. Sometimes we don't know the best way to articulate ourselves, but our words still have meaning however we choose to express them. Nothing is miniscule, not even the smallest particle in existence, so it's important to explore these systems in order to fully understand their power.</p>
+            <h1 class="title">Geometric Form</h1>
+            <a>Use your cursor to draw letterforms.</a>
+            <p id="intro-info">Geometry is used to describe spatial relationships while letters are used to form words. The theory of sacred geometry focuses on oneness with infinite possibilities. In the same way, language offers endless opportunities for communication, allowing people to share their ideas with the world.<br><br>Within the constraints of a restrictive form, meaning can still be generated. This project encourages engagement and experimentation. Create your letterform, add it to the gallery, and select letters to form words on the line below.</p>
     </div>
 
  <div class="flex-right">
  	<div id="drawing">
 	    <canvas id="dots"></canvas>
 	    <img src="metatron-template-small.png">
-        <a href="#" id="save">+</a>
-        <a href="#" id="clearLines">-</a>
+        <a href="#" id="save">&#43;</a>
+        <a href="#" id="clearLines">&#10005;</a>
     </div>
 </div>
 
     <div id="explore">
-	    <h1>Form Meaning</h1>
-	    <p>Contribute and select letters to form words below.</p>
+	    <h1>Letterforms</h1>
+	    <a>Contribute and select letters to create words below.</a>
 	</div>
 
     <div class="gallery">
@@ -64,24 +64,17 @@
         
         <div class="column column-share">
             <div id="share">
-                <h1>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=whitney.interaction.media/GeoCoding" target="_blank">Usage</a>
-                </h1>
-                <p>This typeface is available for download here.</p>
+                <h1>Form Meaning</h1>
             </div>
         </div>
 
         <div class="column column-inputs">
             <div class="input-group">
                 <div id="line"></div>
-                <a href="#" id="deleteLetter">-</a>
+                <a href="#" id="deleteLetter">&#10005;</a>
             </div>
         </div>
     </div>
-<!-- 
-	<footer class="footer">
-            <p class="copyright">&copy; 2017 Whitney Badge</p>
-    </footer>  -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/canvas2svg.js"></script> 

@@ -32,7 +32,7 @@
     <div id="intro">
             <h1 class="title">Geometric Form</h1>
             <a>Use your cursor to draw letterforms.</a>
-            <p id="intro-info">Geometry is used to describe spatial relationships while letters are used to form words. The theory of sacred geometry focuses on oneness with infinite possibilities. In the same way, language offers endless opportunities for communication, allowing people to share their ideas with the world.<br><br>Within the constraints of a restrictive form, meaning can still be generated. This project encourages engagement and experimentation. Create your letterform, add it to the gallery, and select letters to form words on the line below.</p>
+            <p id="intro-info">Geometry is used to describe spatial relationships while letters are used to form words. The theory of sacred geometry focuses on oneness with infinite possibilities. In the same way, language offers endless opportunities for communication, allowing people to share their ideas with the world.<br><br>Within the constraints of a restrictive form, meaning can still be generated. This project encourages engagement and experimentation. Create your letterform, add it to the gallery, and select letters to form words on the line below...</p>
     </div>
 
  <div class="flex-right">

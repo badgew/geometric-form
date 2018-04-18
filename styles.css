@@ -172,7 +172,8 @@ img.letter:hover{
 .flex-right {
    overflow: hidden;
    padding-right:100px;
-   padding-bottom:25px;
+   padding-bottom:35px;
+   padding-top:35px;
 }
 
 .row {
